@@ -27,7 +27,7 @@
       nexusArtifactUploader(
       nexusVersion: 'nexus3',
       protocol: 'http',
-      nexusUrl: ‘ec2-18-188-8-167.us-east-2.compute.amazonaws.com’,
+      nexusUrl: ‘ec2-18-188-8-167.us-east-2.compute.amazonaws.com:8081’,
       groupId: ‘com.dept.app’,
       version: '1.0-SNAPSHOT',
       repository: 'maven-snapshots',
