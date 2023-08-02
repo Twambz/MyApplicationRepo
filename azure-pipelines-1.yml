@@ -60,7 +60,7 @@ stages:
         deploy:
           steps:
           - task: AzureWebApp@1
-            displayName: 'Azure Web App Deploy: twambz'
+            displayName: 'Azure Web App Deploy: twambz1'
             inputs:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
